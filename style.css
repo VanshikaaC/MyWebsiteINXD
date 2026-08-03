@@ -2,3 +2,11 @@
 html {
     background-color: brown;
 }
+
+.image-container {
+  background-color: yellow;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid red;
+}
