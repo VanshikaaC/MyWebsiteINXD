@@ -1,43 +1,47 @@
-<!DOCTYPE html>  <!--Means it is an HTML document type-->
+<!DOCTYPE html>
 <html lang="en">
-<head> 
-  <title>My page</title>
-
+<head>
+  <title>Vanshika's Retro Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta name="author" content="Vanshika Chaturvedi">
-  <meta name="description" content="Brief description">
-
-  <meta property="og:title" content="Your Page Title">
-  <meta property="og:description" content="Brief description">
-  <meta property="og:image" content="/some-image.png">
-  <meta property="og:url" content="/this-page.html">
-  <meta property="og:site_name" content="Your Site Name">
-
+  <meta name="description" content="A retro-inspired personal webpage for Vanshika Chaturvedi">
+  <meta property="og:title" content="Vanshika's Retro Page">
+  <meta property="og:description" content="A retro-inspired personal webpage for Vanshika Chaturvedi">
   <link href="style.css" rel="stylesheet">
-
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
 
 <body>
+  <div class="retro-shell">
+    <header class="retro-header">
+      <p class="badge">WELCOME TO</p>
+      <h1>Vanshika's Retro Page</h1>
+      <p class="subtitle">A tiny web journey through NID Bangalore</p>
+    </header>
 
-<hi>Vanshika's Page</hi>
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>    <!--"/" means the root directory of the website-->
-    <li><a href="/sketch">Sketch here</a></li>   <!--#"/sketch" means the sketch page-->
-    <li><a href="https://vanshikaac.github.io/MyWebsiteINXD/">Github Page</a></li>
-  </ul>
-</nav>
+    <nav class="retro-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/sketch">Sketch here</a></li>
+        <li><a href="https://vanshikaac.github.io/MyWebsiteINXD/">GitHub Page</a></li>
+      </ul>
+    </nav>
 
-<h2>NID Bangalore!</h2>
-<div class="image-container">
-    <img src="NIDtopview.png" alt="NID Bangalore" class="image">
-</div>
+    <main class="retro-content">
+      <section class="panel">
+        <h2>NID Bangalore!</h2>
+        <p>Hie! My name is Vanshika Chaturvedi. I'm learning GitHub.</p>
+        <p>Mic test 1...2...3...</p>
+        <p>This is the change in Visual Studio Code.</p>
+      </section>
 
-<div class="image-container"></div>
-  <script src="script.js"></script>
+      <section class="panel image-panel">
+        <div class="image-container">
+          <img src="NIDtopview.png" alt="NID Bangalore campus view" class="image">
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
 
@@ -48,8 +52,4 @@
 
 
 
-Hie! My name is Vanshika Chaturvedi. I'm learning Github
 
-mic test 1...2...3...
-
-This is the change in visual studio code
